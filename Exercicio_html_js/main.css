@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+input {
+    border: 0.5px solid #fff;
+}
+
+button {
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    border: 0.5px solid aquamarine;
+    font-size: large;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+input:hover{
+    border: 1px solid aquamarine;
+}
+
+ul, li {
+    padding: 5px;
+    list-style: none;
+}
+
+.validacao{
+    text-align: center;
+    padding: 16px;
+    border-radius: 15px;
+    color: white;
+    display: none;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    border-radius: 15px;
+}
